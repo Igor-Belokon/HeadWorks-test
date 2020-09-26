@@ -1,0 +1,46 @@
+.main-block {
+  padding-top: 60px;
+  background: url(../../img/hw-header-background.jpg) 100% 100% no-repeat;
+  background-size: cover;
+  position: static;
+  top: 55px;
+  height: 377px;
+  width: 100%;
+  font-style: italic;
+  font-weight: bold;
+}
+.text-in-logo {
+  color: #f50a4d;
+
+  font-size: 48px;
+}
+.main-text-block {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+.second-text-in-logo {
+  margin-left: 30%;
+}
+.header-car {
+  background: url(../../img/hw-header-car.png) 100% 100%;
+  background-size: 100% 100%;
+  width: 212px;
+  height: 44px;
+  position: relative;
+  left: 10%;
+  top: 50%;
+}
+@media (min-width: 48em) {
+  .text-in-logo {
+    font-size: 88px;
+  }
+  .header-car {
+    left: 50%;
+    height: 128px;
+    width: 528px;
+    top: 15%;
+  }
+  .main-text-block {
+    margin-left: 200px;
+  }
+}

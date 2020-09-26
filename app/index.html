@@ -1,17 +1,176 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
-  <link rel="stylesheet" href="css/styles.min.css">
-  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
-  <script defer src="js/scripts.min.js"></script>
-</head>
-<body>
-  Hello World!
-<!--Happy coding-->
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,400;0,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <script defer src="js/scripts.min.js">
+            $("span").click(function () {
+      $("div").toggleClass("shadow");
+      })
+    </script>
+  </head>
+  <div>
+    <div class="milk-shadow"></div>
+    <header class="header">
+      <a href="" class="logo"
+        >Head <br />
+        Reacing</a
+      >
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"
+        ><span class="navicon"></span
+      ></label>
+      <ul class="menu">
+        <li><a href="#work">About</a></li>
+        <li><a href="#about">Drivers</a></li>
+        <li><a href="#careers">Car</a></li>
+        <li><a href="#contact" class="heder-button">Contact</a></li>
+      </ul>
+    </header>
+  </div>
+  <body>
+    <div class="main-block">
+      <div class="main-text-block">
+        <div>Racing Team</div>
+        <div class="text-in-logo">HeadWorks F1</div>
+        <div class="second-text-in-logo">Code clean, care fast</div>
+      </div>
+      <div class="header-car"></div>
+    </div>
+
+    <div class="about-team">
+      <div class="about-background">
+        <div class="text-about">About</div>
+        <div class="score-text">
+          - 153 races <br />- 25 podiums <br />- 6 wins
+        </div>
+      </div>
+      <div class="description-text">
+        <div class="description-text">
+          We are It company that passioned about<br />
+          motorsport. Teamwork, innovations, and modern <br />approaches -
+          principles we are building our team<br />
+          around.
+        </div>
+        <div class="description-text">
+          With the challenge of making racing cars faster,<br />lighter, and
+          more reliable, Headworks Motosport<br />was born: the company that
+          specializes in the<br />development of innovative methods and the<br />production
+          of high-quality components that never<br />existed before.
+        </div>
+      </div>
+    </div>
+
+    <div class="separation-block">
+      <div class="text-style">Drivers</div>
+      <div class="sep-line"></div>
+    </div>
+    <!-- Block driver 1 -->
+    <div class="drivers-info-1">
+      <div class="info-driver-block-1">
+        <div class="driver-1"></div>
+        <div class="text-block">
+          <div>
+            <div class="driver-cval">Fulstack racing driver</div>
+            <div class="name-driver">Javan Scripter</div>
+          </div>
+          <div class="driver-spec">
+            <div class="text-spec">
+              Races: 122 <br />Pole-positions: 9 <br />Podiums: 15
+            </div>
+            <div>
+              Wins: 3 <br />Date of birth: 1994/12/10 <br />Place of birth:
+              Madrid, Spain
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Block driver 2 -->
+    <div class="drivers-info-1">
+      <div class="info-driver-block-2">
+        <div class="text-block-2">
+          <div>
+            <div class="driver-cval-2">Fulstack racing driver</div>
+            <div class="name-driver-2">Javan Scripter</div>
+          </div>
+          <div class="driver-spec-2">
+            <div class="text-spec">
+              Races: 122 <br />Pole-positions: 9 <br />Podiums: 15
+            </div>
+            <div>
+              Wins: 3 <br />Date of birth: 1994/12/10 <br />Place of birth:
+              Madrid, Spain
+            </div>
+          </div>
+        </div>
+        <div class="driver-2"></div>
+      </div>
+    </div>
+
+    <div class="separation-block">
+      <div class="text-style">Car</div>
+      <div class="sep-line"></div>
+    </div>
+
+    <!-- Car block -->
+    <div class="car-block">
+      <div class="car-order">
+        <div class="car-back">
+          <div class="car-back-text">
+            Power 950–1,000 horsepower (710–750 kW) <br />Weight 733 kg (1,616.0
+            lb)
+          </div>
+        </div>
+        <div class="spec-block">
+          <div class="first-spec-block">
+            Width 2,000 mm (79 in) <br />Height 950 mm (37 in) <br />Wheelbase
+            3,726 mm (146.7 in)
+          </div>
+          <div>
+            0 to 100 km/h (62 mph): 2.4 seconds <br />0 to 200 km/h (124 mph):
+            4.4 seconds <br />0 to 300 km/h (186 mph): 8.4 seconds
+          </div>
+        </div>
+      </div>
+      <div class="score-block">
+        Year: 2020 <br />Wins: 3 <br />Poles: 5 <br />Points: 78
+      </div>
+    </div>
+    <div class="footer-block">
+      <div>
+        <div class="footer-logo">
+          Head<br />
+          Reacing
+        </div>
+        <div class="footer-text">
+          We are It company that passioned about motorsport. Teamwork,<br />
+          innovations, and modern approaches - principles we are building
+          <br />our team around.
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="footer-link">About</div>
+        <div class="footer-link">Drivers</div>
+        <div class="footer-link">Car</div>
+      </div>
+      <div>
+        <input class="footer-input" placeholder="Email" />
+        <div>
+          <textarea class="footer-textarea" placeholder="Message"></textarea>
+        </div>
+        <div class="footer-button">Contact</div>
+      </div>
+    </div>
+  </body>
 </html>

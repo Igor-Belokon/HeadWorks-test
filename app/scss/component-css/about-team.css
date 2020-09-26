@@ -1,0 +1,65 @@
+.about-team {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+  height: 600px;
+  width: 100%;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.about-background {
+  background: url(../../img/hw-about-background.jpg) 100% 100% no-repeat;
+  background-size: cover;
+  height: 159px;
+  width: 85%;
+}
+.text-about {
+  position: relative;
+  color: #f50a4d;
+  top: -25%;
+
+  font-size: 48px;
+  font-style: italic;
+  font-weight: bold;
+}
+.description-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+
+  padding: 15px;
+  font-style: normal;
+  font-weight: normal;
+  color: #4f4f4f;
+}
+.score-text {
+  position: relative;
+
+  font-style: italic;
+  font-weight: bold;
+  color: #f2f2f2;
+  left: 5%;
+  font-size: 12px;
+}
+@media (min-width: 48em) {
+  .about-team {
+    flex-direction: row;
+    margin-top: 0px;
+  }
+  .about-background {
+    width: 50%;
+    height: 315px;
+  }
+  .score-text {
+    top: 60%;
+    font-size: 16px;
+  }
+  .description-text {
+    width: 50%;
+  }
+  .text-about {
+    left: 95%;
+    top: -5%;
+  }
+}

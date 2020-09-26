@@ -1,0 +1,78 @@
+.car-block {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+  flex-direction: column;
+  align-items: center;
+}
+.car-order {
+  order: 2;
+}
+.car-back {
+  background: url(../../img/hw-car-car_image.jpg) 100% 100% no-repeat;
+  background-size: cover;
+  width: 319px;
+  height: 179px;
+}
+.car-back-text {
+  display: flex;
+  position: relative;
+  top: 80%;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  color: #333333;
+  width: 319px;
+  height: 54px;
+  background-color: #f2f2f2;
+  align-items: center;
+  padding-left: 20px;
+}
+.spec-block {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  margin-top: 10%;
+}
+.score-block {
+  margin-top: 5%;
+  order: 1;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 14px;
+}
+.first-spec-block {
+  margin-right: 10%;
+  margin-bottom: 15px;
+}
+@media (min-width: 48em) {
+  .car-block {
+    flex-direction: row;
+  }
+  .score-block {
+    position: relative;
+    margin-top: 5%;
+    right: 20%;
+    order: 2;
+    font-size: 18px;
+  }
+  .car-back {
+    width: 805px;
+    height: 450px;
+  }
+  .car-order {
+    order: 1;
+  }
+  .car-back-text {
+    font-size: 16px;
+    width: 436px;
+    height: 84px;
+  }
+  .spec-block {
+    display: flex;
+    margin-top: 5%;
+  }
+  .first-spec-block {
+    margin-bottom: 0px;
+  }
+}
